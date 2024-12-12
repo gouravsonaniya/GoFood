@@ -44,7 +44,7 @@ export default function Cart() {
       
     <div>
       <div className='container m-auto mt-5 table-responsive  table-responsive-sm table-responsive-md' >
-        <table className='table table-hover text-white'>
+        <table className='table text-white'>
           <thead className='text-success fs-4'>
             <tr>
               <th scope='col' >#</th>
