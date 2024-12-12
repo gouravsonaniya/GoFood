@@ -18,7 +18,7 @@ export default function Cart() {
       alert("User email not found. Please log in again.");
       return;
     }
-    let response = await fetch("http://localhost:5000/api/orderData",{
+    let response = await fetch("https://gofood-o0bz.onrender.com/api/orderData",{
       method:'POST',  
       headers:{
         'Content-Type':'application/json'

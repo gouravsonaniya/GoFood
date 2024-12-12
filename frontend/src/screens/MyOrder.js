@@ -9,7 +9,7 @@ export default function MyOrder() {
         
             console.log(localStorage.getItem('userEmail'))
     
-            await fetch("http://localhost:5000/api/myorderData", {
+            await fetch("https://gofood-o0bz.onrender.com/api/myorderData", {
                 method: 'POST',
                 headers: { 
                     'Content-Type': 'application/json' 
